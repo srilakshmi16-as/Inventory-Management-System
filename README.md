@@ -141,8 +141,23 @@ The application will open in your browser.
 
 ## 📸 Screenshots
 
-![Inventory Management System](screenshots/inventory-home.png)
+### Dashboard
+![Dashboard](screenshots/Screenshot%202026-05-27%20202155.png)
 
+### Products
+![Products](screenshots/Screenshot%202026-05-27%20202219.png)
+
+### Inventory
+![Inventory](screenshots/Screenshot%202026-05-27%20202245.png)
+
+### Sales
+![Sales](screenshots/Screenshot%202026-05-27%20202302.png)
+
+### Invoice
+![Invoice](screenshots/Screenshot%202026-05-27%20202315.png)
+
+### Other Views
+![Other](screenshots/Screenshot%202026-05-27%20202336.png)
 ---
 
 ## 🎯 Future Improvements
