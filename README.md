@@ -141,7 +141,7 @@ The application will open in your browser.
 
 ## 📸 Screenshots
 
-![Inventory Management System](inventory-home.png)
+![Inventory Management System](screenshots/inventory-home.png)
 
 ---
 
