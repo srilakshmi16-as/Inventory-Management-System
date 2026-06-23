@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# 📦 Inventory Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application designed to efficiently manage inventory, products, sales, and invoice records. This system helps organize stock information, track product details, manage sales data, and maintain inventory records in a simple and effective way.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Project Overview
 
-### `npm start`
+The Inventory Management System is developed to simplify inventory handling by providing a digital platform for managing products, sales, invoices, and stock details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The system reduces manual work and helps maintain accurate inventory information with an organized workflow.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📦 Product Management
+- Add new products
+- Update product details
+- Delete products
+- View product information
 
-### `npm run build`
+### 📊 Inventory Tracking
+- Manage stock details
+- Monitor available products
+- Maintain inventory records
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💰 Sales Management
+- Record sales transactions
+- Track sales information
+- Manage sales records
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧾 Invoice Management
+- Create invoices
+- Maintain billing records
+- Manage invoice details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend
+- Node.js
+- Express.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Database
+- MongoDB
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Tools
+- Git & GitHub
+- Visual Studio Code
+- npm
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```text
+Inventory-Management-System
 
-### Code Splitting
+├── backend
+│   ├── config
+│   │   └── db.js
+│   │
+│   ├── models
+│   │   ├── Invoice.js
+│   │   ├── Product.js
+│   │   └── Sale.js
+│   │
+│   ├── routes
+│   │   ├── alertRoutes.js
+│   │   ├── analyticsRoutes.js
+│   │   ├── invoiceRoutes.js
+│   │   ├── productRoutes.js
+│   │   └── saleRoutes.js
+│   │
+│   ├── server.js
+│   └── package.json
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   ├── package.json
+│   └── package-lock.json
+│
+├── README.md
+└── .gitignore
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## ⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Clone Repository
 
-### Making a Progressive Web App
+```bash
+git clone your-repository-link
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Backend Setup
 
-### Advanced Configuration
+```bash
+cd backend
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Frontend Setup
 
-### Deployment
+```bash
+cd frontend
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ▶️ Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Start Backend Server
+
+```bash
+cd backend
+node server.js
+```
+
+### Start Frontend Application
+
+```bash
+cd frontend
+npm start
+```
+
+The application will open in your browser.
+
+---
+
+## 📸 Screenshots
+
+![Inventory Management System](inventory-home.png)
+
+---
+
+## 🎯 Future Improvements
+
+- User authentication
+- Role-based access control
+- Advanced dashboard analytics
+- Better reporting system
+- Cloud deployment
+
+---
+
+## 👩‍💻 Author
+
+**Srilakshmi**
+
+---
+
+## ⭐ Project Status
+
+Completed ✅
+
+This project demonstrates full-stack web development using React, Node.js, Express.js, database integration, and GitHub version control.
